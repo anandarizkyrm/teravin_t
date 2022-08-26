@@ -1,0 +1,36 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    width: 100vw;
+    
+}
+
+.container {
+    width: 80%;
+    padding-bottom: 32px;
+    padding: 12px;
+}
+
+.eduContainer{
+    display: flex;
+}
+
+
+@media (max-width: 480px){
+    .container {
+        width: 100%;
+        padding-bottom: 32px;
+    }
+    .eduContainer{
+        display: block;
+        margin-bottom: 3rem;
+    }
+    
+    
+   
+   
+    
+}
